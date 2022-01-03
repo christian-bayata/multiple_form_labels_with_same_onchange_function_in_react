@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #f1f5f8;
+  color: #222;
+}
+
+.intro {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 1rem;
+}
+
+.form {
+  background: white;
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  padding: 2rem;
+}
+
+.form-group label {
+  width: 100px;
+  padding-right: 2rem;
+  font-family: sans-serif;
+}
+
+.form-group input {
+  background: rgb(235, 241, 245);
+  width: 40%;
+  border: 0;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.btn {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  margin-left: 7rem;
+}
+
+.btn:hover {
+  outline: none;
+  color: white;
+}
+
+.list-people {
+  background: white;
+  margin: 20px auto;
+  width: 50%;
+  padding: 2rem;
+}
+
+.list-people p {
+  color: red;
+  text-align: right;
+  margin: 0;
+  padding-top: 0;
+}
